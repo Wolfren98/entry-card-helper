@@ -1,0 +1,269 @@
+{
+ "schema_version": 2,
+ "data_version": "2026-10-18.1",
+ "niche": "entry_cards",
+ "countries": [
+  {
+   "id": "CN",
+   "file": "countries/cn.json",
+   "flag": "🇨🇳",
+   "name": {
+    "zh": "中国",
+    "en": "China",
+    "zh-TW": "中國"
+   },
+   "card_name": "China Digital Arrival Card (CDAC)",
+   "version": "2026-07-27",
+   "official_url": "https://s.nia.gov.cn/ArrivalCardFillingPC/",
+   "open_days_before": 3
+  },
+  {
+   "id": "SG",
+   "file": "countries/sg.json",
+   "flag": "🇸🇬",
+   "name": {
+    "zh": "新加坡",
+    "en": "Singapore",
+    "zh-TW": "新加坡"
+   },
+   "card_name": "SG Arrival Card (SGAC)",
+   "version": "2026-07-30",
+   "official_url": "https://eservices.ica.gov.sg/sgarrivalcard/",
+   "open_days_before": 3
+  },
+  {
+   "id": "MY",
+   "file": "countries/my.json",
+   "flag": "🇲🇾",
+   "name": {
+    "zh": "马来西亚",
+    "en": "Malaysia",
+    "zh-TW": "馬來西亞"
+   },
+   "card_name": "Malaysia Digital Arrival Card (MDAC)",
+   "version": "2026-07-27",
+   "official_url": "https://imigresen-online.imi.gov.my/mdac/main",
+   "open_days_before": 3
+  },
+  {
+   "id": "TH",
+   "file": "countries/th.json",
+   "flag": "🇹🇭",
+   "name": {
+    "zh": "泰国",
+    "en": "Thailand",
+    "zh-TW": "泰國"
+   },
+   "card_name": "Thailand Digital Arrival Card (TDAC)",
+   "version": "2026-07-27",
+   "official_url": "https://tdac.immigration.go.th",
+   "open_days_before": 3
+  },
+  {
+   "id": "VN",
+   "file": "countries/vn.json",
+   "flag": "🇻🇳",
+   "name": {
+    "zh": "越南",
+    "en": "Vietnam",
+    "zh-TW": "越南"
+   },
+   "card_name": "Digital Pre-Arrival Card (+ e-Visa)",
+   "version": "2026-07-30",
+   "official_url": "https://prearrival.immigration.gov.vn/",
+   "open_days_before": 14
+  },
+  {
+   "id": "ID",
+   "file": "countries/id.json",
+   "flag": "🇮🇩",
+   "name": {
+    "zh": "印尼",
+    "en": "Indonesia",
+    "zh-TW": "印尼"
+   },
+   "card_name": "All Indonesia (arrival + e-CD customs)",
+   "version": "2026-07-27",
+   "official_url": "https://allindonesia.imigrasi.go.id/",
+   "open_days_before": 3
+  },
+  {
+   "id": "TW",
+   "file": "countries/tw.json",
+   "flag": "🇹🇼",
+   "name": {
+    "zh": "台湾地区",
+    "en": "Taiwan Region",
+    "zh-TW": "台灣地區"
+   },
+   "card_name": "Taiwan Arrival Card (TWAC)",
+   "version": "2026-07-30",
+   "official_url": "https://twac.immigration.gov.tw/",
+   "open_days_before": 7
+  },
+  {
+   "id": "IN",
+   "file": "countries/in.json",
+   "flag": "🇮🇳",
+   "name": {
+    "zh": "印度",
+    "en": "India"
+   },
+   "card_name": "India e-Arrival Card",
+   "version": "2026-07-30",
+   "official_url": "https://indianvisaonline.gov.in/earrival/",
+   "open_days_before": 3
+  },
+  {
+   "id": "MV",
+   "file": "countries/mv.json",
+   "flag": "🇲🇻",
+   "name": {
+    "zh": "马尔代夫",
+    "en": "Maldives"
+   },
+   "card_name": "IMUGA Traveller Declaration",
+   "version": "2026-07-30",
+   "official_url": "https://imuga.immigration.gov.mv/traveller",
+   "open_days_before": 4
+  },
+  {
+   "id": "KR",
+   "file": "countries/kr.json",
+   "flag": "🇰🇷",
+   "name": {
+    "zh": "韩国",
+    "en": "South Korea"
+   },
+   "card_name": "Korea e-Arrival Card",
+   "version": "2026-07-30",
+   "official_url": "https://www.e-arrivalcard.go.kr/",
+   "open_days_before": 3
+  },
+  {
+   "id": "KH",
+   "file": "countries/kh.json",
+   "flag": "🇰🇭",
+   "name": {
+    "zh": "柬埔寨",
+    "en": "Cambodia"
+   },
+   "card_name": "Cambodia e-Arrival",
+   "version": "2026-07-30",
+   "official_url": "https://arrival.gov.kh/",
+   "open_days_before": 7
+  },
+  {
+   "id": "PH",
+   "file": "countries/ph.json",
+   "flag": "🇵🇭",
+   "name": {
+    "zh": "菲律宾",
+    "en": "Philippines",
+    "zh-TW": "菲律賓"
+   },
+   "card_name": "Philippines eTravel",
+   "version": "2026-10-18",
+   "official_url": "https://etravel.gov.ph/",
+   "open_days_before": 3
+  },
+  {
+   "id": "JP",
+   "file": "countries/jp.json",
+   "flag": "🇯🇵",
+   "name": {
+    "zh": "日本",
+    "en": "Japan",
+    "zh-TW": "日本"
+   },
+   "card_name": "Visit Japan Web",
+   "version": "2026-10-18",
+   "official_url": "https://www.vjw.digital.go.jp/",
+   "open_days_before": 3
+  },
+  {
+   "id": "BN",
+   "file": "countries/bn.json",
+   "flag": "🇧🇳",
+   "name": {
+    "zh": "文莱",
+    "en": "Brunei",
+    "zh-TW": "汶萊"
+   },
+   "card_name": "Brunei E-Arrival",
+   "version": "2026-10-18",
+   "official_url": "https://www.imm.gov.bn/",
+   "open_days_before": 3
+  },
+  {
+   "id": "NZ",
+   "file": "countries/nz.json",
+   "flag": "🇳🇿",
+   "name": {
+    "zh": "新西兰",
+    "en": "New Zealand",
+    "zh-TW": "紐西蘭"
+   },
+   "card_name": "New Zealand Traveller Declaration",
+   "version": "2026-10-18",
+   "official_url": "https://www.travellerdeclaration.govt.nz/",
+   "open_days_before": 2
+  },
+  {
+   "id": "DO",
+   "file": "countries/do.json",
+   "flag": "🇩🇴",
+   "name": {
+    "zh": "多米尼加",
+    "en": "Dominican Republic",
+    "zh-TW": "多明尼加"
+   },
+   "card_name": "Dominican Republic e-Ticket",
+   "version": "2026-10-18",
+   "official_url": "https://eticket.migracion.gob.do/",
+   "open_days_before": 3
+  },
+  {
+   "id": "JM",
+   "file": "countries/jm.json",
+   "flag": "🇯🇲",
+   "name": {
+    "zh": "牙买加",
+    "en": "Jamaica",
+    "zh-TW": "牙買加"
+   },
+   "card_name": "Jamaica C5",
+   "version": "2026-10-18",
+   "official_url": "https://enterjamaica.gov.jm/",
+   "open_days_before": 3
+  },
+  {
+   "id": "DM",
+   "file": "countries/dm.json",
+   "flag": "🇩🇲",
+   "name": {
+    "zh": "多米尼克",
+    "en": "Dominica",
+    "zh-TW": "多米尼克"
+   },
+   "card_name": "Dominica ED Card",
+   "version": "2026-10-18",
+   "official_url": "https://edcard.dominica.gov.dm/",
+   "open_days_before": 3
+  },
+  {
+   "id": "TT",
+   "file": "countries/tt.json",
+   "flag": "🇹🇹",
+   "name": {
+    "zh": "特立尼达和多巴哥",
+    "en": "Trinidad and Tobago",
+    "zh-TW": "千里達及托巴哥"
+   },
+   "card_name": "Trinidad and Tobago Arrival Card",
+   "version": "2026-10-18",
+   "official_url": "https://travel.gov.tt/en",
+   "open_days_before": 3
+  }
+ ]
+}

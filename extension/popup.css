@@ -1,0 +1,105 @@
+*{box-sizing:border-box}
+body{width:384px;margin:0;font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif;color:#1a1a1a;background:#fff;font-size:14px}
+header{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;padding:12px 14px 6px}
+h1{font-size:16px;margin:0}
+.subtitle{margin:2px 0 0;font-size:11px;color:#666}
+#lang{font-size:12px;padding:3px 4px;border:1px solid #ddd;border-radius:6px;background:#fafafa}
+#search{width:calc(100% - 28px);margin:4px 14px 8px;padding:8px 10px;border:1px solid #ddd;border-radius:8px;font-size:14px}
+.pagebar{margin:2px 14px 6px;font-size:11.5px;color:#12703f;display:flex;align-items:center;background:#eaf7ef;border:1px solid #cdeed9;border-radius:8px;padding:6px 9px}
+.pagebar label{display:flex;align-items:center;gap:6px;cursor:pointer;width:100%}
+
+.list{max-height:440px;overflow-y:auto;padding:0 10px 6px}
+.card{border:1px solid #eee;border-radius:10px;padding:10px 12px;margin:6px 4px}
+.card h2{font-size:15px;margin:0 0 2px;display:flex;align-items:center;gap:6px}
+.cardname{font-size:12px;color:#555;margin:0 0 6px}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 8px}
+.badge{font-size:10px;font-weight:700;padding:2px 6px;border-radius:999px}
+.badge.official{background:#e7f0ff;color:#1256b8}
+.badge.free{background:#e7f7ec;color:#1a7f37}
+.badge.veri{background:#f2f0ea;color:#8a6d3b}
+.reach{font-size:11.5px;color:#8a4b00;background:#fff5e6;border:1px solid #ffe0b3;border-radius:8px;padding:6px 8px;margin:4px 0 8px;line-height:1.5}
+.row{font-size:12px;margin:4px 0}
+.row b{color:#333}
+.btns{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+button,.btn{font-size:12px;padding:6px 9px;border:1px solid #ddd;border-radius:7px;background:#fafafa;cursor:pointer;text-decoration:none;color:#1a1a1a;display:inline-block}
+button.primary{background:#c96442;color:#fff;border-color:#c96442;font-weight:600}
+.share{display:flex;gap:6px;margin-top:6px}
+.details{margin-top:8px}
+.details summary{cursor:pointer;font-size:12px;color:#1256b8}
+.field{font-size:12px;margin:8px 0;padding-left:8px;border-left:2px solid #eee}
+.field>b{display:block;margin-bottom:2px}
+.field .reassure{background:#eaf7ef;color:#12703f;padding:5px 7px;border-radius:6px;margin:3px 0;line-height:1.5}
+.field .how{color:#444;margin:3px 0}
+.field .chips{display:flex;flex-wrap:wrap;gap:5px;margin:4px 0}
+.field .chip{font-size:11.5px;padding:3px 8px;border:1px solid #d8dce2;border-radius:999px;background:#f7f8fa;cursor:pointer}
+.field .chip:hover{background:#c96442;color:#fff;border-color:#c96442}
+.field .dft{font-size:11.5px;color:#666}
+.field .dft b{color:#c96442}
+.field .illu{margin:6px 0}
+.field .illu img{width:100%;max-width:260px;display:block;border-radius:8px;border:1px solid #eef1f5}
+
+.disclaimer{font-size:11px;color:#a15;padding:4px 16px;margin:0}
+footer{padding:8px 14px 12px;border-top:1px solid #f0f0f0;display:flex;justify-content:space-between;align-items:center}
+footer a{font-size:12px;color:#1256b8;text-decoration:none}
+.dataver{font-size:10px;color:#9aa2ad}
+.empty{text-align:center;color:#888;padding:20px;font-size:13px}
+.toast{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);background:#1f2937;color:#fff;font-size:12px;padding:6px 12px;border-radius:999px;opacity:0;transition:opacity .3s;pointer-events:none}
+.nathelp{margin:0 14px 8px;font-size:12px;border:1px solid #eef1f5;border-radius:8px;padding:6px 10px;background:#fbfcfe}
+.nathelp summary{cursor:pointer;color:#1256b8}
+.nathelp .natline{margin:6px 0 4px;color:#444}
+.nathelp .chips{display:flex;flex-wrap:wrap;gap:5px}
+.nathelp .chip{font-size:11.5px;padding:3px 8px;border:1px solid #d8dce2;border-radius:999px;background:#f7f8fa;cursor:pointer}
+.nathelp .chip:hover{background:#c96442;color:#fff;border-color:#c96442}
+.nathelp .nattip{margin-top:6px;color:#12703f;background:#eaf7ef;border-radius:6px;padding:5px 7px;line-height:1.5}
+/* ---- 手风琴国家折叠 ---- */
+details.card{padding:0;overflow:hidden}
+details.card>summary{list-style:none;display:flex;align-items:center;gap:8px;padding:11px 12px;cursor:pointer}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary::after{content:"›";margin-left:auto;color:#c0c6cf;font-size:18px;transform:rotate(90deg);transition:transform .15s}
+details.card[open]>summary::after{transform:rotate(-90deg)}
+details.card[open]>summary{border-bottom:1px solid #f0f0f0}
+.crow .flagimg{width:22px;height:15px;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.1);object-fit:cover;flex:none;display:block}
+.crow .cname{font-weight:600;font-size:14px}
+.crow .ctag{font-size:11px;color:#9aa2ad;margin-left:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cbody{padding:10px 12px}
+details.sub{margin-top:8px;border-top:1px dashed #eef1f5;padding-top:6px}
+details.sub>summary{cursor:pointer;font-size:12px;color:#1256b8}
+.natline{margin:6px 0 4px;color:#444;font-size:12px}
+.nattip{margin-top:6px;color:#12703f;background:#eaf7ef;border-radius:6px;padding:5px 7px;line-height:1.5;font-size:12px}
+.natbox{background:#f4f8ff;border:1px solid #dbe7ff;border-radius:8px;padding:8px 10px;margin-bottom:8px}
+/* ---- B3: base pill styling (root-fix for candidates sticking together) ---- */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0}
+.chip{font-size:11.5px;padding:4px 9px;border:1px solid #d8dce2;border-radius:999px;background:#f7f8fa;cursor:pointer;white-space:nowrap;display:inline-flex;align-items:center;gap:4px}
+.chip:hover{background:#c96442;color:#fff;border-color:#c96442}
+.natchip .arrow{color:#9aa2ad}
+.chip:hover .arrow,.chip:hover .code{color:#fff}
+.natchip .code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:700;color:#c96442;background:#fff3ee;padding:1px 6px;border-radius:4px}
+.chip:hover .code{background:rgba(255,255,255,.25)}
+/* ---- B1: per-country highlight block (no_english term pairs / custom body) ---- */
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:5px 8px;margin:6px 0}
+.pair{display:flex;align-items:center;gap:5px;font-size:11.5px;background:#fff;border:1px solid #eef1f5;border-radius:6px;padding:3px 7px;overflow:hidden}
+.pair .pzh{font-weight:600;white-space:nowrap}
+.pair .parrow{color:#9aa2ad;flex:none}
+.pair .pen{color:#555;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hlbody{margin-top:6px;color:#444;font-size:12px;line-height:1.6;background:#fff;border-radius:6px;padding:6px 8px}
+
+.natttl{font-size:12px;font-weight:600;color:#1256b8;margin-bottom:3px}
+
+/* 格式说明（不可点复制）vs 可点选项，视觉上要能一眼分开 */
+.field .fmt{margin:5px 0;padding:5px 8px;border-left:3px solid #c7ccd4;background:#f7f8fa;color:#4a5058;font-size:11.5px;line-height:1.55;border-radius:0 6px 6px 0;cursor:default;user-select:none;}
+.field .fmt .fmtk{display:inline-block;font-weight:700;color:#6b7280;margin-right:6px;}
+.field .chipcap{font-size:10.5px;color:#8a9099;margin:6px 0 2px;}
+
+.field .tip{margin:6px 0;padding:7px 9px;background:#fff7e6;border:1px solid #ffdca8;border-radius:7px;color:#7a4f00;font-size:11.5px;line-height:1.6;}
+.field .tip .tipk{margin-right:5px;}
+
+.field .stepend{margin-top:8px;padding:7px 9px;background:#eaf7ef;border:1px solid #b9e3c9;
+border-radius:7px;color:#12703f;line-height:1.6;font-size:11.5px;}
+
+.tripbtn{display:block;width:calc(100% - 28px);margin:2px 14px 8px;padding:8px 10px;border:1px solid #cdeed9;border-radius:8px;background:#eaf7ef;color:#12703f;font-size:13px;font-weight:600;cursor:pointer;text-align:center}
+.tripbtn:hover{background:#dff1e7}
+/* 侦测到订票站但系统通知没露面时的高亮入口 */
+.tripbtn.hot{background:#fdf1ec;border-color:#e6c9bd;color:#a4482a}
+.tripbtn.hot:hover{background:#fae4db}
+/* 赞助位容器（卡片样式在 promo.js 里注入，两边界面共用一份） */
+#promo-pop{padding:0 14px}

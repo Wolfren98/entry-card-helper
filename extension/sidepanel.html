@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="sidepanel.css"></head>
+<body>
+  <div class="sp">
+    <nav class="topnav">
+      <button id="backbtn" class="backbtn" type="button"></button>
+      <span id="navtitle" class="navtitle"></span>
+    </nav>
+
+    <!-- ── 视图 1：行程备忘 ── -->
+    <div id="view-trips">
+      <header><h1 id="sp_title"></h1><p id="sp_sub" class="sub"></p></header>
+
+      <!-- 订票站侦测的兜底横幅：系统通知没弹出来时，这里一定看得到 -->
+      <section id="pending" class="pending" hidden>
+        <div class="pd-t" id="pd_title"></div>
+        <div class="pd-b" id="pd_body"></div>
+        <div class="pd-acts">
+          <button id="pd_yes" class="primary sm"></button>
+          <button id="pd_no"></button>
+          <button id="pd_mute"></button>
+        </div>
+      </section>
+
+      <section class="addbox">
+        <div class="lbl" id="l_dest"></div>
+        <select id="dest"></select>
+        <div class="lbl" id="l_date"></div>
+        <input type="date" id="date">
+        <div class="lbl" id="l_flight"></div>
+        <input type="text" id="flight" autocomplete="off">
+        <label class="calrow"><input type="checkbox" id="cal"> <span id="l_cal"></span></label>
+        <button id="save" class="primary"></button>
+        <p id="upsell" class="upsell"></p>
+        <p id="err" class="err"></p>
+      </section>
+
+      <div id="trips" class="trips"></div>
+      <div id="promo-sp"></div>
+      <div class="foot"><button id="exportall" class="ghost"></button></div>
+    </div>
+
+    <!-- ── 视图 2：国家列表 ── -->
+    <div id="view-list" hidden>
+      <p id="list_sub" class="sub"></p>
+      <input id="lsearch" type="search" autocomplete="off">
+      <div id="clist" class="clist"></div>
+    </div>
+
+    <!-- ── 日历投递面板 ── -->
+    <div id="calsheet" class="sheetwrap" hidden style="display:none">
+      <div class="sheet">
+        <div class="sh-h"><b id="sh_title"></b><span id="sh_sub"></span></div>
+        <div id="sh_body"></div>
+        <button id="sh_close" class="ghost wide"></button>
+      </div>
+    </div>
+
+    <!-- ── 删除确认 ── -->
+    <div id="confirm" class="sheetwrap" hidden style="display:none">
+      <div class="sheet">
+        <div class="sh-h"><b id="cf_title"></b><span id="cf_sub"></span></div>
+        <p id="cf_body" class="cf-body"></p>
+        <div class="cf-acts">
+          <button id="cf_no" class="ghost"></button>
+          <button id="cf_yes" class="danger"></button>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+  </div>
+  <script src="i18n.js"></script>
+  <script src="i18n-packs.js"></script>
+  <script src="ics.js"></script>
+  <script src="promo.js"></script>
+  <script src="sidepanel.js"></script>
+</body></html>

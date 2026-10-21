@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 100">
+  <rect x="2" y="2" width="216" height="96" rx="8" fill="#fff" stroke="#d8dce2" stroke-width="1.5"/>
+  <rect x="2" y="2" width="216" height="16" rx="8" fill="#c96442"/>
+  <rect x="2" y="10" width="216" height="8" fill="#c96442"/>
+  <text x="10" y="13.5" font-family="system-ui,sans-serif" font-size="8" font-weight="700" fill="#fff">BOARDING PASS</text>
+  <circle cx="200" cy="10" r="4" fill="#fff" opacity="0.85"/>
+  <path d="M197 10 l2 2 l4 -4" stroke="#c96442" stroke-width="1" fill="none"/>
+
+  <!-- perforation -->
+  <line x1="164" y1="18" x2="164" y2="98" stroke="#c7ccd4" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- passenger name -->
+  <text x="10" y="32" font-family="system-ui,sans-serif" font-size="6" fill="#9aa2ad">PASSENGER NAME</text>
+  <rect x="10" y="35" width="90" height="6" rx="1" fill="#eef1f5"/>
+
+  <!-- from/to -->
+  <text x="10" y="50" font-family="system-ui,sans-serif" font-size="6" fill="#9aa2ad">FROM</text>
+  <rect x="10" y="53" width="34" height="6" rx="1" fill="#eef1f5"/>
+  <text x="52" y="58" font-family="system-ui,sans-serif" font-size="8" fill="#c7ccd4">&#9992;</text>
+  <text x="70" y="50" font-family="system-ui,sans-serif" font-size="6" fill="#9aa2ad">TO</text>
+  <rect x="70" y="53" width="34" height="6" rx="1" fill="#eef1f5"/>
+
+  <!-- gate / seat -->
+  <text x="10" y="68" font-family="system-ui,sans-serif" font-size="6" fill="#9aa2ad">GATE</text>
+  <rect x="10" y="71" width="20" height="6" rx="1" fill="#eef1f5"/>
+  <text x="40" y="68" font-family="system-ui,sans-serif" font-size="6" fill="#9aa2ad">SEAT</text>
+  <rect x="40" y="71" width="20" height="6" rx="1" fill="#eef1f5"/>
+
+  <!-- FLIGHT NO row -->
+  <text x="70" y="68" font-family="system-ui,sans-serif" font-size="6" font-weight="700" fill="#8a4b00">FLIGHT NO.</text>
+  <rect x="70" y="71" width="42" height="9" rx="1.5" fill="#fff5e6" stroke="#c96442" stroke-width="1"/>
+  <text x="74" y="78" font-family="ui-monospace,monospace" font-size="7" font-weight="700" fill="#c96442">CA123</text>
+
+  <!-- highlight circle around flight no -->
+  <ellipse cx="91" cy="75.5" rx="30" ry="10" fill="none" stroke="#e0362a" stroke-width="2"/>
+  <path d="M105 68 l14 -10 m-14 10 l4 -14 m-4 14 l14 3" stroke="#e0362a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+  <!-- stub -->
+  <text x="170" y="30" font-family="system-ui,sans-serif" font-size="6" fill="#9aa2ad">GATE</text>
+  <rect x="170" y="33" width="38" height="6" rx="1" fill="#eef1f5"/>
+  <text x="170" y="48" font-family="system-ui,sans-serif" font-size="6" fill="#9aa2ad">SEAT</text>
+  <rect x="170" y="51" width="38" height="6" rx="1" fill="#eef1f5"/>
+  <g fill="#3a3f47">
+    <rect x="170" y="66" width="2" height="20"/><rect x="174" y="66" width="1" height="20"/>
+    <rect x="177" y="66" width="3" height="20"/><rect x="182" y="66" width="1" height="20"/>
+    <rect x="185" y="66" width="2" height="20"/><rect x="189" y="66" width="1" height="20"/>
+    <rect x="192" y="66" width="3" height="20"/><rect x="197" y="66" width="1" height="20"/>
+    <rect x="200" y="66" width="2" height="20"/><rect x="204" y="66" width="1" height="20"/>
+    <rect x="207" y="66" width="2" height="20"/>
+  </g>
+</svg>

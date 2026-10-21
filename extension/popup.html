@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header>
+    <div class="titlewrap"><h1 id="title"></h1><p id="subtitle" class="subtitle"></p></div>
+    <select id="lang" aria-label="language"></select>
+  </header>
+  <div id="pagebar" class="pagebar" style="display:none"><label><input type="checkbox" id="pausechk"> <span id="pausetxt"></span></label></div>
+  <button id="tripbtn" class="tripbtn"></button>
+  <input id="search" type="search" autocomplete="off">
+  <div id="list" class="list"></div>
+  <div id="promo-pop"></div>
+  <p id="disclaimer" class="disclaimer"></p>
+  <footer><a href="#" id="settings-link"></a><span id="dataver" class="dataver"></span></footer>
+  <div id="toast" class="toast"></div>
+  <script src="i18n.js"></script>
+  <script src="i18n-packs.js"></script>
+  <script src="promo.js"></script>
+  <script src="popup.js"></script>
+</body></html>

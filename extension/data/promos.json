@@ -1,0 +1,78 @@
+{
+  "promo_version": "2026-08-24.1",
+  "_note": "赞助位数据。url 全部是占位地址，上线前替换成你自己的联盟/自营链接。countries 用 index.json 里的国家 id（大写），\"*\" 表示所有目的地都可展示。slots: popup=弹窗底部, sidepanel=侧边栏行程卡下方。",
+  "items": [
+    {
+      "id": "esim-asia",
+      "slots": ["sidepanel", "popup"],
+      "countries": ["TH", "SG", "MY", "VN", "ID", "KH", "IN", "MV", "KR", "TW", "CN"],
+      "emoji": "📶",
+      "title": {
+        "zh": "落地就有网：亚洲 eSIM",
+        "zh-TW": "落地就有網：亞洲 eSIM",
+        "en": "Land online: Asia eSIM"
+      },
+      "body": {
+        "zh": "不用换卡、不用找柜台，扫码即用。泰国 / 新加坡 / 马来西亚 / 越南等都覆盖。",
+        "zh-TW": "不用換卡、不用找櫃檯，掃碼即用。泰國 / 新加坡 / 馬來西亞 / 越南等都涵蓋。",
+        "en": "No SIM swap, no counter queue. Scan and you're online — Thailand, Singapore, Malaysia, Vietnam and more."
+      },
+      "cta": { "zh": "看看套餐", "zh-TW": "看看方案", "en": "See plans" },
+      "url": "https://example.com/esim?utm_source=entrycardhelper&utm_medium=extension&utm_campaign=trip"
+    },
+    {
+      "id": "travel-insurance",
+      "slots": ["sidepanel"],
+      "countries": ["*"],
+      "emoji": "🛡",
+      "title": {
+        "zh": "出发前买好旅行保险",
+        "zh-TW": "出發前買好旅行保險",
+        "en": "Get travel insurance before you fly"
+      },
+      "body": {
+        "zh": "医疗、行李延误、航班取消。多数保单要求出发前生效，落地再买就晚了。",
+        "zh-TW": "醫療、行李延誤、航班取消。多數保單要求出發前生效，落地再買就晚了。",
+        "en": "Medical, baggage delay, cancellation. Most policies must start before departure — buying on arrival is too late."
+      },
+      "cta": { "zh": "比价", "zh-TW": "比價", "en": "Compare" },
+      "url": "https://example.com/insurance?utm_source=entrycardhelper&utm_medium=extension&utm_campaign=trip"
+    },
+    {
+      "id": "airport-transfer",
+      "slots": ["sidepanel", "popup"],
+      "countries": ["TH", "VN", "ID", "MY", "KH", "IN"],
+      "emoji": "🚕",
+      "title": {
+        "zh": "机场接送先订好",
+        "zh-TW": "機場接送先訂好",
+        "en": "Book the airport pickup"
+      },
+      "body": {
+        "zh": "凌晨落地最容易被宰。提前订好固定价，司机举牌在出口等。",
+        "zh-TW": "凌晨落地最容易被坑。提前訂好固定價，司機舉牌在出口等。",
+        "en": "Late-night arrivals are where the overcharging happens. Fixed price, driver waiting at arrivals."
+      },
+      "cta": { "zh": "看价格", "zh-TW": "看價格", "en": "See prices" },
+      "url": "https://example.com/transfer?utm_source=entrycardhelper&utm_medium=extension&utm_campaign=trip"
+    },
+    {
+      "id": "fx-card",
+      "slots": ["popup"],
+      "countries": ["*"],
+      "emoji": "💳",
+      "title": {
+        "zh": "出国刷卡少交手续费",
+        "zh-TW": "出國刷卡少交手續費",
+        "en": "Stop paying FX fees abroad"
+      },
+      "body": {
+        "zh": "多币种卡按真实汇率结算，取现和刷卡都省一截。",
+        "zh-TW": "多幣別卡按真實匯率結算，提現和刷卡都省一截。",
+        "en": "Multi-currency cards settle at the real rate — cheaper on both ATM withdrawals and card payments."
+      },
+      "cta": { "zh": "了解一下", "zh-TW": "了解一下", "en": "Learn more" },
+      "url": "https://example.com/card?utm_source=entrycardhelper&utm_medium=extension&utm_campaign=popup"
+    }
+  ]
+}

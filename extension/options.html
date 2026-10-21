@@ -1,0 +1,59 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+body{font-family:system-ui,"PingFang SC",sans-serif;max-width:560px;margin:30px auto;padding:0 16px;color:#1a1a1a}
+h1{font-size:18px}label{display:block;margin:16px 0 4px;font-size:13px;color:#333}
+input{width:100%;padding:8px 10px;border:1px solid #ddd;border-radius:8px;font-size:14px}
+.hint{font-size:12px;color:#666;margin-top:6px}
+.ex{font-size:12px;color:#555;background:#fafafa;border:1px solid #eee;border-radius:8px;padding:8px;margin-top:8px}
+code{background:#f2f2f2;padding:1px 4px;border-radius:4px}
+button{margin-top:18px;padding:8px 14px;border:0;border-radius:8px;background:#c96442;color:#fff;font-weight:600;cursor:pointer}
+button.sec{background:#fafafa;color:#444;border:1px solid #ddd;margin-right:8px}
+h2{font-size:14px;margin:28px 0 0;padding-top:18px;border-top:1px solid #eee}
+.sw{display:flex;align-items:flex-start;gap:8px;margin:12px 0 0;font-size:13px;line-height:1.6}
+.sw input{width:auto;margin-top:3px}
+table.diag{width:100%;border-collapse:collapse;font-size:12px;margin-top:10px}
+table.diag td{border-bottom:1px solid #f0f0f0;padding:5px 4px;vertical-align:top}
+table.diag td:first-child{color:#777;width:38%;white-space:nowrap}
+.ok{color:#12703f;font-weight:600}.bad{color:#c0392b;font-weight:600}.mute{color:#999}
+</style></head><body>
+<h1>Entry Card Helper — Settings / 设置</h1>
+
+<label for="engine">Search / AI engine URL (<code>{q}</code> = query) · 搜索/AI 引擎（<code>{q}</code> 为查询词）</label>
+<input id="engine" type="text">
+<div class="ex">Google <code>https://www.google.com/search?q={q}</code> · ChatGPT <code>https://chatgpt.com/?q={q}</code> · Perplexity <code>https://www.perplexity.ai/search?q={q}</code></div>
+
+<label>Bubble position · 气泡位置</label>
+<div class="ex" style="line-height:1.9">
+  <label style="margin:0;font-size:13px"><input type="radio" name="dock" value="auto" style="width:auto;margin-right:6px">
+    自动（默认）—— 放得下就贴着正在填的那一栏，放不下就靠到右上角</label>
+  <label style="margin:0;font-size:13px"><input type="radio" name="dock" value="side" style="width:auto;margin-right:6px">
+    一律靠右上角 —— 绝不遮挡表单和下拉列表；当前填的那一栏会描一圈橙色边</label>
+  <label style="margin:0;font-size:13px"><input type="radio" name="dock" value="beside" style="width:auto;margin-right:6px">
+    一律贴着字段 —— 眼睛不用来回跑，但窄屏上可能压到内容</label>
+</div>
+<div class="hint">气泡标题栏上那个 ⧉ 按钮也能随时切换，切完会记住。📌 持续展示、✕ 关闭、拖动，都照旧。</div>
+
+<label for="dataBaseUrl">Data source URL (optional) · 数据源地址（可选，留空=用本地打包数据）</label>
+<input id="dataBaseUrl" type="text" placeholder="https://cdn.yourdomain.com/entryguide/">
+<div class="hint">留空即纯本地离线运行；填了远程地址后，联网时后台自动同步更新（含 index.json 与 countries/*.json）。启用远程同步需在 manifest 里加对应域名的 host 权限。</div>
+
+<button id="save">Save / 保存</button>
+<p class="hint" id="status"></p>
+
+<h2>Trip reminders &amp; sponsored slot · 行程备忘与赞助位</h2>
+<label class="sw"><input type="checkbox" id="bookingDetect">
+  <span>在订票网站上提示我记一笔行程 · Offer to save a trip on booking sites<br>
+  <span class="hint">只看网址域名，不读页面内容。关掉后不再侦测。</span></span></label>
+<label class="sw"><input type="checkbox" id="promoEnabled">
+  <span>显示赞助推荐位 · Show sponsored recommendations<br>
+  <span class="hint">出现在弹窗底部和侧边栏行程卡下方，明确标注「赞助」，跟当前行程目的地相关。关掉后两处都不再出现。</span></span></label>
+
+<h2>Booking-site detection self-check · 订票站侦测自检</h2>
+<div class="hint">「打开携程没弹提示」多半不是没侦测到，而是系统通知被 Windows 专注助手 / 通知设置吞了，或者 4 小时节流还没过。这里能一眼看出卡在哪一环。</div>
+<div>
+  <button class="sec" id="diagRun" type="button">运行自检 / Run self-check</button>
+  <button class="sec" id="diagNotify" type="button">发一条测试通知 / Test notification</button>
+  <button class="sec" id="diagClear" type="button">清除节流并重测 / Clear throttle</button>
+</div>
+<table class="diag" id="diagTable"></table>
+
+<script src="options.js"></script></body></html>

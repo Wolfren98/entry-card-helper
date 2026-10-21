@@ -1,0 +1,2342 @@
+{
+ "schema_version": 1,
+ "version": "2026-07-28",
+ "note": "locale=书写语言→候选国ISO码；countries.aliases 供二期气泡现读下拉做别名匹配",
+ "locales": {
+  "zh": [
+   "CHN",
+   "SGP",
+   "MYS"
+  ],
+  "zh-CN": [
+   "CHN",
+   "SGP",
+   "MYS"
+  ],
+  "zh-Hans": [
+   "CHN",
+   "SGP",
+   "MYS"
+  ],
+  "zh-SG": [
+   "SGP",
+   "CHN",
+   "MYS"
+  ],
+  "zh-MY": [
+   "MYS",
+   "CHN",
+   "SGP"
+  ],
+  "zh-TW": [
+   "TWN",
+   "HKG",
+   "MAC"
+  ],
+  "zh-Hant": [
+   "TWN",
+   "HKG",
+   "MAC"
+  ],
+  "zh-HK": [
+   "HKG",
+   "MAC",
+   "TWN"
+  ],
+  "zh-MO": [
+   "MAC",
+   "HKG"
+  ],
+  "ja": [
+   "JPN"
+  ],
+  "ko": [
+   "KOR"
+  ],
+  "th": [
+   "THA"
+  ],
+  "vi": [
+   "VNM"
+  ],
+  "id": [
+   "IDN"
+  ],
+  "ms": [
+   "MYS"
+  ],
+  "fr": [
+   "FRA",
+   "BEL",
+   "CAN"
+  ],
+  "es": [
+   "ESP",
+   "MEX",
+   "ARG"
+  ],
+  "ru": [
+   "RUS",
+   "KAZ",
+   "BLR"
+  ],
+  "hi": [
+   "IND"
+  ],
+  "de": [
+   "DEU",
+   "AUT",
+   "CHE"
+  ],
+  "pt": [
+   "PRT",
+   "BRA"
+  ],
+  "pt-BR": [
+   "BRA",
+   "PRT"
+  ],
+  "it": [
+   "ITA",
+   "CHE"
+  ],
+  "nl": [
+   "NLD",
+   "BEL"
+  ],
+  "ar": [
+   "SAU",
+   "ARE",
+   "EGY"
+  ],
+  "tr": [
+   "TUR"
+  ],
+  "pl": [
+   "POL"
+  ],
+  "sv": [
+   "SWE"
+  ],
+  "fa": [
+   "IRN"
+  ],
+  "he": [
+   "ISR"
+  ],
+  "km": [
+   "KHM"
+  ],
+  "lo": [
+   "LAO"
+  ],
+  "my": [
+   "MMR"
+  ],
+  "ne": [
+   "NPL"
+  ],
+  "si": [
+   "LKA"
+  ],
+  "bn": [
+   "BGD"
+  ],
+  "ur": [
+   "PAK"
+  ],
+  "tl": [
+   "PHL"
+  ],
+  "fil": [
+   "PHL"
+  ],
+  "en": [
+   "USA",
+   "GBR",
+   "AUS"
+  ],
+  "en-GB": [
+   "GBR",
+   "IRL"
+  ],
+  "en-US": [
+   "USA"
+  ],
+  "en-AU": [
+   "AUS"
+  ],
+  "en-CA": [
+   "CAN"
+  ],
+  "en-NZ": [
+   "NZL"
+  ],
+  "en-IN": [
+   "IND"
+  ],
+  "en-SG": [
+   "SGP"
+  ],
+  "en-PH": [
+   "PHL"
+  ],
+  "en-ZA": [
+   "ZAF"
+  ],
+  "fr-CA": [
+   "CAN",
+   "FRA"
+  ],
+  "fr-BE": [
+   "BEL"
+  ],
+  "fr-CH": [
+   "CHE"
+  ],
+  "fr-FR": [
+   "FRA"
+  ],
+  "es-ES": [
+   "ESP"
+  ],
+  "es-MX": [
+   "MEX"
+  ],
+  "es-AR": [
+   "ARG"
+  ],
+  "es-CO": [
+   "COL"
+  ],
+  "es-CL": [
+   "CHL"
+  ],
+  "de-AT": [
+   "AUT"
+  ],
+  "de-CH": [
+   "CHE"
+  ],
+  "de-DE": [
+   "DEU"
+  ],
+  "pt-PT": [
+   "PRT"
+  ],
+  "nl-BE": [
+   "BEL"
+  ],
+  "nl-NL": [
+   "NLD"
+  ],
+  "ru-KZ": [
+   "KAZ"
+  ],
+  "ru-BY": [
+   "BLR"
+  ],
+  "ru-RU": [
+   "RUS"
+  ],
+  "ar-SA": [
+   "SAU"
+  ],
+  "ar-AE": [
+   "ARE"
+  ],
+  "ar-EG": [
+   "EGY"
+  ],
+  "it-CH": [
+   "CHE"
+  ],
+  "it-IT": [
+   "ITA"
+  ]
+ },
+ "countries": {
+  "CHN": {
+   "name": {
+    "zh": "中国",
+    "en": "China",
+    "zh-TW": "中國",
+    "ja": "中国",
+    "ko": "중국",
+    "fr": "Chine",
+    "es": "China",
+    "vi": "Trung Quốc",
+    "th": "จีน",
+    "ru": "Китай",
+    "de": "China",
+    "pl": "Chiny",
+    "it": "Cina",
+    "ar": "الصين",
+    "tr": "Çin",
+    "uk": "Китай",
+    "pt": "China",
+    "nl": "China",
+    "id": "Tiongkok",
+    "ms": "China",
+    "hi": "चीन",
+    "he": "סין",
+    "cs": "Čína",
+    "hu": "Kína",
+    "ro": "China",
+    "fa": "چین",
+    "el": "Κίνα"
+   },
+   "iso2": "CN",
+   "iso3": "CHN",
+   "aliases": [
+    "China",
+    "CHN",
+    "CN",
+    "PRC",
+    "P.R. China",
+    "People's Republic of China",
+    "Mainland China",
+    "China (People's Republic of)",
+    "中国",
+    "中國"
+   ],
+   "dial": "86"
+  },
+  "SGP": {
+   "name": {
+    "zh": "新加坡",
+    "en": "Singapore",
+    "ja": "シンガポール",
+    "ko": "싱가포르",
+    "fr": "Singapour",
+    "es": "Singapur",
+    "zh-TW": "新加坡",
+    "vi": "Singapore",
+    "th": "สิงคโปร์",
+    "ru": "Сингапур",
+    "de": "Singapur",
+    "pl": "Singapur",
+    "it": "Singapore",
+    "ar": "سنغافورة",
+    "tr": "Singapur",
+    "uk": "Сінгапур",
+    "pt": "Singapura",
+    "nl": "Singapore",
+    "id": "Singapura",
+    "ms": "Singapura",
+    "hi": "सिंगापुर",
+    "he": "סינגפור",
+    "cs": "Singapur",
+    "hu": "Szingapúr",
+    "ro": "Singapore",
+    "fa": "سنگاپور",
+    "el": "Σιγκαπούρη"
+   },
+   "iso2": "SG",
+   "iso3": "SGP",
+   "aliases": [
+    "Singapore",
+    "SGP",
+    "SG",
+    "新加坡"
+   ],
+   "dial": "65"
+  },
+  "MYS": {
+   "name": {
+    "zh": "马来西亚",
+    "en": "Malaysia",
+    "zh-TW": "馬來西亞",
+    "ja": "マレーシア",
+    "ko": "말레이시아",
+    "fr": "Malaisie",
+    "es": "Malasia",
+    "vi": "Malaysia",
+    "th": "มาเลเซีย",
+    "ru": "Малайзия",
+    "de": "Malaysia",
+    "pl": "Malezja",
+    "it": "Malaysia",
+    "ar": "ماليزيا",
+    "tr": "Malezya",
+    "uk": "Малайзія",
+    "pt": "Malásia",
+    "nl": "Maleisië",
+    "id": "Malaysia",
+    "ms": "Malaysia",
+    "hi": "मलेशिया",
+    "he": "מלזיה",
+    "cs": "Malajsie",
+    "hu": "Malajzia",
+    "ro": "Malaysia",
+    "fa": "مالزی",
+    "el": "Μαλαισία"
+   },
+   "iso2": "MY",
+   "iso3": "MYS",
+   "aliases": [
+    "Malaysia",
+    "MYS",
+    "MY",
+    "马来西亚",
+    "馬來西亞"
+   ],
+   "dial": "60"
+  },
+  "TWN": {
+   "name": {
+    "zh": "台湾",
+    "en": "Taiwan",
+    "zh-TW": "台灣",
+    "ja": "台湾",
+    "ko": "대만",
+    "fr": "Taïwan",
+    "es": "Taiwán",
+    "vi": "Đài Loan",
+    "th": "ไต้หวัน",
+    "ru": "Тайвань",
+    "de": "Taiwan",
+    "pl": "Tajwan",
+    "it": "Taiwan",
+    "ar": "تايوان",
+    "tr": "Tayvan",
+    "uk": "Тайвань",
+    "pt": "Taiwan",
+    "nl": "Taiwan",
+    "id": "Taiwan",
+    "ms": "Taiwan",
+    "hi": "ताइवान",
+    "he": "טייוואן",
+    "cs": "Tchaj-wan",
+    "hu": "Tajvan",
+    "ro": "Taiwan",
+    "fa": "تایوان",
+    "el": "Ταϊβάν"
+   },
+   "iso2": "TW",
+   "iso3": "TWN",
+   "aliases": [
+    "Taiwan",
+    "TWN",
+    "TW",
+    "Taiwan (Province of China)",
+    "Chinese Taipei",
+    "台湾",
+    "台灣"
+   ],
+   "dial": "886"
+  },
+  "HKG": {
+   "name": {
+    "zh": "香港",
+    "en": "Hong Kong",
+    "ja": "香港",
+    "ko": "홍콩",
+    "fr": "Hong Kong",
+    "es": "Hong Kong",
+    "zh-TW": "香港",
+    "vi": "Hồng Kông",
+    "th": "ฮ่องกง",
+    "ru": "Гонконг",
+    "de": "Hongkong",
+    "pl": "Hongkong",
+    "it": "Hong Kong",
+    "ar": "هونغ كونغ",
+    "tr": "Hong Kong",
+    "uk": "Гонконг",
+    "pt": "Hong Kong",
+    "nl": "Hongkong",
+    "id": "Hong Kong",
+    "ms": "Hong Kong",
+    "hi": "हांगकांग",
+    "he": "הונג קונג",
+    "cs": "Hongkong",
+    "hu": "Hongkong",
+    "ro": "Hong Kong",
+    "fa": "هنگ‌کنگ",
+    "el": "Χονγκ Κονγκ"
+   },
+   "iso2": "HK",
+   "iso3": "HKG",
+   "aliases": [
+    "Hong Kong",
+    "HKG",
+    "HK",
+    "Hong Kong SAR",
+    "香港"
+   ],
+   "dial": "852"
+  },
+  "MAC": {
+   "name": {
+    "zh": "澳门",
+    "en": "Macao",
+    "zh-TW": "澳門",
+    "ja": "マカオ",
+    "ko": "마카오",
+    "fr": "Macao",
+    "es": "Macao",
+    "vi": "Ma Cao",
+    "th": "มาเก๊า",
+    "ru": "Макао",
+    "de": "Macau",
+    "pl": "Makau",
+    "it": "Macao",
+    "ar": "ماكاو",
+    "tr": "Makao",
+    "uk": "Макао",
+    "pt": "Macau",
+    "nl": "Macau",
+    "id": "Makau",
+    "ms": "Makau",
+    "hi": "मकाओ",
+    "he": "מקאו",
+    "cs": "Macao",
+    "hu": "Makaó",
+    "ro": "Macao",
+    "fa": "ماکائو",
+    "el": "Μακάο"
+   },
+   "iso2": "MO",
+   "iso3": "MAC",
+   "aliases": [
+    "Macao",
+    "Macau",
+    "MAC",
+    "MO",
+    "澳门",
+    "澳門"
+   ],
+   "dial": "853"
+  },
+  "JPN": {
+   "name": {
+    "zh": "日本",
+    "en": "Japan",
+    "ja": "日本",
+    "ko": "일본",
+    "fr": "Japon",
+    "es": "Japón",
+    "vi": "Nhật Bản",
+    "th": "ญี่ปุ่น",
+    "ru": "Япония",
+    "de": "Japan",
+    "pl": "Japonia",
+    "it": "Giappone",
+    "ar": "اليابان",
+    "tr": "Japonya",
+    "uk": "Японія",
+    "pt": "Japão",
+    "nl": "Japan",
+    "id": "Jepang",
+    "ms": "Jepun",
+    "hi": "जापान",
+    "he": "יפן",
+    "cs": "Japonsko",
+    "hu": "Japán",
+    "ro": "Japonia",
+    "fa": "ژاپن",
+    "el": "Ιαπωνία"
+   },
+   "iso2": "JP",
+   "iso3": "JPN",
+   "aliases": [
+    "Japan",
+    "JPN",
+    "JP",
+    "日本"
+   ],
+   "dial": "81"
+  },
+  "KOR": {
+   "name": {
+    "zh": "韩国",
+    "en": "South Korea",
+    "zh-TW": "韓國",
+    "ja": "韓国",
+    "ko": "대한민국",
+    "fr": "Corée du Sud",
+    "es": "Corea del Sur",
+    "vi": "Hàn Quốc",
+    "th": "เกาหลีใต้",
+    "ru": "Южная Корея",
+    "de": "Südkorea",
+    "pl": "Korea Południowa",
+    "it": "Corea del Sud",
+    "ar": "كوريا الجنوبية",
+    "tr": "Güney Kore",
+    "uk": "Південна Корея",
+    "pt": "Coreia do Sul",
+    "nl": "Zuid-Korea",
+    "id": "Korea Selatan",
+    "ms": "Korea Selatan",
+    "hi": "दक्षिण कोरिया",
+    "he": "קוריאה הדרומית",
+    "cs": "Jižní Korea",
+    "hu": "Dél-Korea",
+    "ro": "Coreea de Sud",
+    "fa": "کره جنوبی",
+    "el": "Νότια Κορέα"
+   },
+   "iso2": "KR",
+   "iso3": "KOR",
+   "aliases": [
+    "Korea",
+    "Korea, Republic of",
+    "Republic of Korea",
+    "South Korea",
+    "KOR",
+    "KR",
+    "韩国",
+    "韓國"
+   ],
+   "dial": "82"
+  },
+  "THA": {
+   "name": {
+    "zh": "泰国",
+    "en": "Thailand",
+    "zh-TW": "泰國",
+    "ja": "タイ",
+    "ko": "태국",
+    "fr": "Thaïlande",
+    "es": "Tailandia",
+    "vi": "Thái Lan",
+    "th": "ไทย",
+    "ru": "Таиланд",
+    "de": "Thailand",
+    "pl": "Tajlandia",
+    "it": "Thailandia",
+    "ar": "تايلاند",
+    "tr": "Tayland",
+    "uk": "Таїланд",
+    "pt": "Tailândia",
+    "nl": "Thailand",
+    "id": "Thailand",
+    "ms": "Thailand",
+    "hi": "थाईलैंड",
+    "he": "תאילנד",
+    "cs": "Thajsko",
+    "hu": "Thaiföld",
+    "ro": "Thailanda",
+    "fa": "تایلند",
+    "el": "Ταϊλάνδη"
+   },
+   "iso2": "TH",
+   "iso3": "THA",
+   "aliases": [
+    "Thailand",
+    "THA",
+    "TH",
+    "泰国",
+    "泰國"
+   ],
+   "dial": "66"
+  },
+  "VNM": {
+   "name": {
+    "zh": "越南",
+    "en": "Vietnam",
+    "ja": "ベトナム",
+    "ko": "베트남",
+    "fr": "Viêt Nam",
+    "es": "Vietnam",
+    "vi": "Việt Nam",
+    "th": "เวียดนาม",
+    "ru": "Вьетнам",
+    "de": "Vietnam",
+    "pl": "Wietnam",
+    "it": "Vietnam",
+    "ar": "فيتنام",
+    "tr": "Vietnam",
+    "uk": "В'єтнам",
+    "pt": "Vietnã",
+    "nl": "Vietnam",
+    "id": "Vietnam",
+    "ms": "Vietnam",
+    "hi": "वियतनाम",
+    "he": "וייטנאם",
+    "cs": "Vietnam",
+    "hu": "Vietnám",
+    "ro": "Vietnam",
+    "fa": "ویتنام",
+    "el": "Βιετνάμ"
+   },
+   "iso2": "VN",
+   "iso3": "VNM",
+   "aliases": [
+    "Vietnam",
+    "Viet Nam",
+    "VNM",
+    "VN",
+    "越南"
+   ],
+   "dial": "84"
+  },
+  "IDN": {
+   "name": {
+    "zh": "印尼",
+    "en": "Indonesia",
+    "ja": "インドネシア",
+    "ko": "인도네시아",
+    "fr": "Indonésie",
+    "es": "Indonesia",
+    "vi": "Indonesia",
+    "th": "อินโดนีเซีย",
+    "ru": "Индонезия",
+    "de": "Indonesien",
+    "pl": "Indonezja",
+    "it": "Indonesia",
+    "ar": "إندونيسيا",
+    "tr": "Endonezya",
+    "uk": "Індонезія",
+    "pt": "Indonésia",
+    "nl": "Indonesië",
+    "id": "Indonesia",
+    "ms": "Indonesia",
+    "hi": "इंडोनेशिया",
+    "he": "אינדונזיה",
+    "cs": "Indonésie",
+    "hu": "Indonézia",
+    "ro": "Indonezia",
+    "fa": "اندونزی",
+    "el": "Ινδονησία"
+   },
+   "iso2": "ID",
+   "iso3": "IDN",
+   "aliases": [
+    "Indonesia",
+    "IDN",
+    "ID",
+    "印尼",
+    "印度尼西亚"
+   ],
+   "dial": "62"
+  },
+  "USA": {
+   "name": {
+    "zh": "美国",
+    "en": "United States",
+    "zh-TW": "美國",
+    "ja": "アメリカ合衆国",
+    "ko": "미국",
+    "fr": "États-Unis",
+    "es": "Estados Unidos",
+    "vi": "Hoa Kỳ",
+    "th": "สหรัฐอเมริกา",
+    "ru": "США",
+    "de": "Vereinigte Staaten",
+    "pl": "Stany Zjednoczone",
+    "it": "Stati Uniti",
+    "ar": "الولايات المتحدة",
+    "tr": "Amerika Birleşik Devletleri",
+    "uk": "США",
+    "pt": "Estados Unidos",
+    "nl": "Verenigde Staten",
+    "id": "Amerika Serikat",
+    "ms": "Amerika Syarikat",
+    "hi": "संयुक्त राज्य",
+    "he": "ארצות הברית",
+    "cs": "Spojené státy",
+    "hu": "Egyesült Államok",
+    "ro": "Statele Unite",
+    "fa": "ایالات متحده",
+    "el": "Ηνωμένες Πολιτείες"
+   },
+   "iso2": "US",
+   "iso3": "USA",
+   "aliases": [
+    "United States",
+    "United States of America",
+    "USA",
+    "US",
+    "America",
+    "美国",
+    "美國"
+   ],
+   "dial": "1"
+  },
+  "GBR": {
+   "name": {
+    "zh": "英国",
+    "en": "United Kingdom",
+    "zh-TW": "英國",
+    "ja": "イギリス",
+    "ko": "영국",
+    "fr": "Royaume-Uni",
+    "es": "Reino Unido",
+    "vi": "Vương quốc Anh",
+    "th": "สหราชอาณาจักร",
+    "ru": "Великобритания",
+    "de": "Vereinigtes Königreich",
+    "pl": "Wielka Brytania",
+    "it": "Regno Unito",
+    "ar": "المملكة المتحدة",
+    "tr": "Birleşik Krallık",
+    "uk": "Велика Британія",
+    "pt": "Reino Unido",
+    "nl": "Verenigd Koninkrijk",
+    "id": "Britania Raya",
+    "ms": "United Kingdom",
+    "hi": "यूनाइटेड किंगडम",
+    "he": "הממלכה המאוחדת",
+    "cs": "Spojené království",
+    "hu": "Egyesült Királyság",
+    "ro": "Regatul Unit",
+    "fa": "بریتانیا",
+    "el": "Ηνωμένο Βασίλειο"
+   },
+   "iso2": "GB",
+   "iso3": "GBR",
+   "aliases": [
+    "United Kingdom",
+    "UK",
+    "GBR",
+    "GB",
+    "Great Britain",
+    "Britain",
+    "英国",
+    "英國"
+   ],
+   "dial": "44"
+  },
+  "PRK": {
+   "name": {
+    "zh": "朝鲜",
+    "en": "North Korea",
+    "zh-TW": "北韓",
+    "ja": "北朝鮮",
+    "ko": "북한",
+    "fr": "Corée du Nord",
+    "es": "Corea del Norte",
+    "vi": "Triều Tiên",
+    "th": "เกาหลีเหนือ",
+    "ru": "Северная Корея",
+    "de": "Nordkorea",
+    "pl": "Korea Północna",
+    "it": "Corea del Nord",
+    "ar": "كوريا الشمالية",
+    "tr": "Kuzey Kore",
+    "uk": "Північна Корея",
+    "pt": "Coreia do Norte",
+    "nl": "Noord-Korea",
+    "id": "Korea Utara",
+    "ms": "Korea Utara",
+    "hi": "उत्तर कोरिया",
+    "he": "קוריאה הצפונית",
+    "cs": "Severní Korea",
+    "hu": "Észak-Korea",
+    "ro": "Coreea de Nord",
+    "fa": "کره شمالی",
+    "el": "Βόρεια Κορέα"
+   },
+   "iso2": "KP",
+   "iso3": "PRK",
+   "aliases": [
+    "Korea, Democratic People's Republic of",
+    "North Korea",
+    "DPRK",
+    "PRK",
+    "KP",
+    "朝鲜",
+    "北韓"
+   ],
+   "dial": "850"
+  },
+  "FRA": {
+   "name": {
+    "zh": "法国",
+    "en": "France",
+    "zh-TW": "法國",
+    "ja": "フランス",
+    "ko": "프랑스",
+    "fr": "France",
+    "es": "Francia",
+    "vi": "Pháp",
+    "th": "ฝรั่งเศส",
+    "ru": "Франция",
+    "de": "Frankreich",
+    "pl": "Francja",
+    "it": "Francia",
+    "ar": "فرنسا",
+    "tr": "Fransa",
+    "uk": "Франція",
+    "pt": "França",
+    "nl": "Frankrijk",
+    "id": "Prancis",
+    "ms": "Perancis",
+    "hi": "फ़्रांस",
+    "he": "צרפת",
+    "cs": "Francie",
+    "hu": "Franciaország",
+    "ro": "Franța",
+    "fa": "فرانسه",
+    "el": "Γαλλία"
+   },
+   "iso2": "FR",
+   "iso3": "FRA",
+   "aliases": [
+    "France",
+    "FRA",
+    "FR",
+    "法国",
+    "French Republic",
+    "法國"
+   ],
+   "dial": "33"
+  },
+  "BEL": {
+   "name": {
+    "zh": "比利时",
+    "en": "Belgium",
+    "zh-TW": "比利時",
+    "ja": "ベルギー",
+    "ko": "벨기에",
+    "fr": "Belgique",
+    "es": "Bélgica",
+    "vi": "Bỉ",
+    "th": "เบลเยียม",
+    "ru": "Бельгия",
+    "de": "Belgien",
+    "pl": "Belgia",
+    "it": "Belgio",
+    "ar": "بلجيكا",
+    "tr": "Belçika",
+    "uk": "Бельгія",
+    "pt": "Bélgica",
+    "nl": "België",
+    "id": "Belgia",
+    "ms": "Belgium",
+    "hi": "बेल्जियम",
+    "he": "בלגיה",
+    "cs": "Belgie",
+    "hu": "Belgium",
+    "ro": "Belgia",
+    "fa": "بلژیک",
+    "el": "Βέλγιο"
+   },
+   "iso2": "BE",
+   "iso3": "BEL",
+   "aliases": [
+    "Belgium",
+    "BEL",
+    "BE",
+    "比利时",
+    "比利時"
+   ],
+   "dial": "32"
+  },
+  "CHE": {
+   "name": {
+    "zh": "瑞士",
+    "en": "Switzerland",
+    "ja": "スイス",
+    "ko": "스위스",
+    "fr": "Suisse",
+    "es": "Suiza",
+    "vi": "Thụy Sĩ",
+    "th": "สวิตเซอร์แลนด์",
+    "ru": "Швейцария",
+    "de": "Schweiz",
+    "pl": "Szwajcaria",
+    "it": "Svizzera",
+    "ar": "سويسرا",
+    "tr": "İsviçre",
+    "uk": "Швейцарія",
+    "pt": "Suíça",
+    "nl": "Zwitserland",
+    "id": "Swiss",
+    "ms": "Switzerland",
+    "hi": "स्विट्ज़रलैंड",
+    "he": "שווייץ",
+    "cs": "Švýcarsko",
+    "hu": "Svájc",
+    "ro": "Elveția",
+    "fa": "سوئیس",
+    "el": "Ελβετία"
+   },
+   "iso2": "CH",
+   "iso3": "CHE",
+   "aliases": [
+    "Switzerland",
+    "CHE",
+    "CH",
+    "瑞士",
+    "Suisse",
+    "Swiss"
+   ],
+   "dial": "41"
+  },
+  "CAN": {
+   "name": {
+    "zh": "加拿大",
+    "en": "Canada",
+    "ja": "カナダ",
+    "ko": "캐나다",
+    "fr": "Canada",
+    "es": "Canadá",
+    "vi": "Canada",
+    "th": "แคนาดา",
+    "ru": "Канада",
+    "de": "Kanada",
+    "pl": "Kanada",
+    "it": "Canada",
+    "ar": "كندا",
+    "tr": "Kanada",
+    "uk": "Канада",
+    "pt": "Canadá",
+    "nl": "Canada",
+    "id": "Kanada",
+    "ms": "Kanada",
+    "hi": "कनाडा",
+    "he": "קנדה",
+    "cs": "Kanada",
+    "hu": "Kanada",
+    "ro": "Canada",
+    "fa": "کانادا",
+    "el": "Καναδάς"
+   },
+   "iso2": "CA",
+   "iso3": "CAN",
+   "aliases": [
+    "Canada",
+    "CAN",
+    "CA",
+    "加拿大"
+   ],
+   "dial": "1"
+  },
+  "ESP": {
+   "name": {
+    "zh": "西班牙",
+    "en": "Spain",
+    "ja": "スペイン",
+    "ko": "스페인",
+    "fr": "Espagne",
+    "es": "España",
+    "vi": "Tây Ban Nha",
+    "th": "สเปน",
+    "ru": "Испания",
+    "de": "Spanien",
+    "pl": "Hiszpania",
+    "it": "Spagna",
+    "ar": "إسبانيا",
+    "tr": "İspanya",
+    "uk": "Іспанія",
+    "pt": "Espanha",
+    "nl": "Spanje",
+    "id": "Spanyol",
+    "ms": "Sepanyol",
+    "hi": "स्पेन",
+    "he": "ספרד",
+    "cs": "Španělsko",
+    "hu": "Spanyolország",
+    "ro": "Spania",
+    "fa": "اسپانیا",
+    "el": "Ισπανία"
+   },
+   "iso2": "ES",
+   "iso3": "ESP",
+   "aliases": [
+    "Spain",
+    "ESP",
+    "ES",
+    "西班牙",
+    "España"
+   ],
+   "dial": "34"
+  },
+  "MEX": {
+   "name": {
+    "zh": "墨西哥",
+    "en": "Mexico",
+    "ja": "メキシコ",
+    "ko": "멕시코",
+    "fr": "Mexique",
+    "es": "México",
+    "vi": "Mexico",
+    "th": "เม็กซิโก",
+    "ru": "Мексика",
+    "de": "Mexiko",
+    "pl": "Meksyk",
+    "it": "Messico",
+    "ar": "المكسيك",
+    "tr": "Meksika",
+    "uk": "Мексика",
+    "pt": "México",
+    "nl": "Mexico",
+    "id": "Meksiko",
+    "ms": "Mexico",
+    "hi": "मेक्सिको",
+    "he": "מקסיקו",
+    "cs": "Mexiko",
+    "hu": "Mexikó",
+    "ro": "Mexic",
+    "fa": "مکزیک",
+    "el": "Μεξικό"
+   },
+   "iso2": "MX",
+   "iso3": "MEX",
+   "aliases": [
+    "Mexico",
+    "MEX",
+    "MX",
+    "墨西哥",
+    "México"
+   ],
+   "dial": "52"
+  },
+  "ARG": {
+   "name": {
+    "zh": "阿根廷",
+    "en": "Argentina",
+    "ja": "アルゼンチン",
+    "ko": "아르헨티나",
+    "fr": "Argentine",
+    "es": "Argentina",
+    "vi": "Argentina",
+    "th": "อาร์เจนตินา",
+    "ru": "Аргентина",
+    "de": "Argentinien",
+    "pl": "Argentyna",
+    "it": "Argentina",
+    "ar": "الأرجنتين",
+    "tr": "Arjantin",
+    "uk": "Аргентина",
+    "pt": "Argentina",
+    "nl": "Argentinië",
+    "id": "Argentina",
+    "ms": "Argentina",
+    "hi": "अर्जेंटीना",
+    "he": "ארגנטינה",
+    "cs": "Argentina",
+    "hu": "Argentína",
+    "ro": "Argentina",
+    "fa": "آرژانتین",
+    "el": "Αργεντινή"
+   },
+   "iso2": "AR",
+   "iso3": "ARG",
+   "aliases": [
+    "Argentina",
+    "ARG",
+    "AR",
+    "阿根廷"
+   ],
+   "dial": "54"
+  },
+  "COL": {
+   "name": {
+    "zh": "哥伦比亚",
+    "en": "Colombia",
+    "zh-TW": "哥倫比亞",
+    "ja": "コロンビア",
+    "ko": "콜롬비아",
+    "fr": "Colombie",
+    "es": "Colombia",
+    "vi": "Colombia",
+    "th": "โคลอมเบีย",
+    "ru": "Колумбия",
+    "de": "Kolumbien",
+    "pl": "Kolumbia",
+    "it": "Colombia",
+    "ar": "كولومبيا",
+    "tr": "Kolombiya",
+    "uk": "Колумбія",
+    "pt": "Colômbia",
+    "nl": "Colombia",
+    "id": "Kolombia",
+    "ms": "Colombia",
+    "hi": "कोलंबिया",
+    "he": "קולומביה",
+    "cs": "Kolumbie",
+    "hu": "Kolumbia",
+    "ro": "Columbia",
+    "fa": "کلمبیا",
+    "el": "Κολομβία"
+   },
+   "iso2": "CO",
+   "iso3": "COL",
+   "aliases": [
+    "Colombia",
+    "COL",
+    "CO",
+    "哥伦比亚",
+    "哥倫比亞"
+   ],
+   "dial": "57"
+  },
+  "CHL": {
+   "name": {
+    "zh": "智利",
+    "en": "Chile",
+    "ja": "チリ",
+    "ko": "칠레",
+    "fr": "Chili",
+    "es": "Chile",
+    "vi": "Chile",
+    "th": "ชิลี",
+    "ru": "Чили",
+    "de": "Chile",
+    "pl": "Chile",
+    "it": "Cile",
+    "ar": "تشيلي",
+    "tr": "Şili",
+    "uk": "Чилі",
+    "pt": "Chile",
+    "nl": "Chili",
+    "id": "Chili",
+    "ms": "Chile",
+    "hi": "चिली",
+    "he": "צ'ילה",
+    "cs": "Chile",
+    "hu": "Chile",
+    "ro": "Chile",
+    "fa": "شیلی",
+    "el": "Χιλή"
+   },
+   "iso2": "CL",
+   "iso3": "CHL",
+   "aliases": [
+    "Chile",
+    "CHL",
+    "CL",
+    "智利"
+   ],
+   "dial": "56"
+  },
+  "RUS": {
+   "name": {
+    "zh": "俄罗斯",
+    "en": "Russia",
+    "zh-TW": "俄羅斯",
+    "ja": "ロシア",
+    "ko": "러시아",
+    "fr": "Russie",
+    "es": "Rusia",
+    "vi": "Nga",
+    "th": "รัสเซีย",
+    "ru": "Россия",
+    "de": "Russland",
+    "pl": "Rosja",
+    "it": "Russia",
+    "ar": "روسيا",
+    "tr": "Rusya",
+    "uk": "Росія",
+    "pt": "Rússia",
+    "nl": "Rusland",
+    "id": "Rusia",
+    "ms": "Rusia",
+    "hi": "रूस",
+    "he": "רוסיה",
+    "cs": "Rusko",
+    "hu": "Oroszország",
+    "ro": "Rusia",
+    "fa": "روسیه",
+    "el": "Ρωσία"
+   },
+   "iso2": "RU",
+   "iso3": "RUS",
+   "aliases": [
+    "Russia",
+    "RUS",
+    "RU",
+    "俄罗斯",
+    "Russian Federation",
+    "俄羅斯"
+   ],
+   "dial": "7"
+  },
+  "KAZ": {
+   "name": {
+    "zh": "哈萨克斯坦",
+    "en": "Kazakhstan",
+    "zh-TW": "哈薩克",
+    "ja": "カザフスタン",
+    "ko": "카자흐스탄",
+    "fr": "Kazakhstan",
+    "es": "Kazajistán",
+    "vi": "Kazakhstan",
+    "th": "คาซัคสถาน",
+    "ru": "Казахстан",
+    "de": "Kasachstan",
+    "pl": "Kazachstan",
+    "it": "Kazakistan",
+    "ar": "كازاخستان",
+    "tr": "Kazakistan",
+    "uk": "Казахстан",
+    "pt": "Cazaquistão",
+    "nl": "Kazachstan",
+    "id": "Kazakhstan",
+    "ms": "Kazakhstan",
+    "hi": "कज़ाखस्तान",
+    "he": "קזחסטן",
+    "cs": "Kazachstán",
+    "hu": "Kazahsztán",
+    "ro": "Kazahstan",
+    "fa": "قزاقستان",
+    "el": "Καζακστάν"
+   },
+   "iso2": "KZ",
+   "iso3": "KAZ",
+   "aliases": [
+    "Kazakhstan",
+    "KAZ",
+    "KZ",
+    "哈萨克斯坦",
+    "哈薩克"
+   ],
+   "dial": "7"
+  },
+  "BLR": {
+   "name": {
+    "zh": "白俄罗斯",
+    "en": "Belarus",
+    "zh-TW": "白俄羅斯",
+    "ja": "ベラルーシ",
+    "ko": "벨라루스",
+    "fr": "Biélorussie",
+    "es": "Bielorrusia",
+    "vi": "Belarus",
+    "th": "เบลารุส",
+    "ru": "Беларусь",
+    "de": "Belarus",
+    "pl": "Białoruś",
+    "it": "Bielorussia",
+    "ar": "بيلاروس",
+    "tr": "Belarus",
+    "uk": "Білорусь",
+    "pt": "Bielorrússia",
+    "nl": "Belarus",
+    "id": "Belarus",
+    "ms": "Belarus",
+    "hi": "बेलारूस",
+    "he": "בלארוס",
+    "cs": "Bělorusko",
+    "hu": "Fehéroroszország",
+    "ro": "Belarus",
+    "fa": "بلاروس",
+    "el": "Λευκορωσία"
+   },
+   "iso2": "BY",
+   "iso3": "BLR",
+   "aliases": [
+    "Belarus",
+    "BLR",
+    "BY",
+    "白俄罗斯",
+    "白俄羅斯"
+   ],
+   "dial": "375"
+  },
+  "IND": {
+   "name": {
+    "zh": "印度",
+    "en": "India",
+    "ja": "インド",
+    "ko": "인도",
+    "fr": "Inde",
+    "es": "India",
+    "vi": "Ấn Độ",
+    "th": "อินเดีย",
+    "ru": "Индия",
+    "de": "Indien",
+    "pl": "Indie",
+    "it": "India",
+    "ar": "الهند",
+    "tr": "Hindistan",
+    "uk": "Індія",
+    "pt": "Índia",
+    "nl": "India",
+    "id": "India",
+    "ms": "India",
+    "hi": "भारत",
+    "he": "הודו",
+    "cs": "Indie",
+    "hu": "India",
+    "ro": "India",
+    "fa": "هند",
+    "el": "Ινδία"
+   },
+   "iso2": "IN",
+   "iso3": "IND",
+   "aliases": [
+    "India",
+    "IND",
+    "IN",
+    "印度"
+   ],
+   "dial": "91"
+  },
+  "DEU": {
+   "name": {
+    "zh": "德国",
+    "en": "Germany",
+    "zh-TW": "德國",
+    "ja": "ドイツ",
+    "ko": "독일",
+    "fr": "Allemagne",
+    "es": "Alemania",
+    "vi": "Đức",
+    "th": "เยอรมนี",
+    "ru": "Германия",
+    "de": "Deutschland",
+    "pl": "Niemcy",
+    "it": "Germania",
+    "ar": "ألمانيا",
+    "tr": "Almanya",
+    "uk": "Німеччина",
+    "pt": "Alemanha",
+    "nl": "Duitsland",
+    "id": "Jerman",
+    "ms": "Jerman",
+    "hi": "जर्मनी",
+    "he": "גרמניה",
+    "cs": "Německo",
+    "hu": "Németország",
+    "ro": "Germania",
+    "fa": "آلمان",
+    "el": "Γερμανία"
+   },
+   "iso2": "DE",
+   "iso3": "DEU",
+   "aliases": [
+    "Germany",
+    "DEU",
+    "DE",
+    "德国",
+    "Deutschland",
+    "德國"
+   ],
+   "dial": "49"
+  },
+  "AUT": {
+   "name": {
+    "zh": "奥地利",
+    "en": "Austria",
+    "zh-TW": "奧地利",
+    "vi": "Áo",
+    "th": "ออสเตรีย",
+    "ru": "Австрия",
+    "de": "Österreich",
+    "pl": "Austria",
+    "it": "Austria",
+    "ar": "النمسا",
+    "tr": "Avusturya",
+    "uk": "Австрія",
+    "pt": "Áustria",
+    "nl": "Oostenrijk",
+    "id": "Austria",
+    "ms": "Austria",
+    "hi": "ऑस्ट्रिया",
+    "he": "אוסטריה",
+    "cs": "Rakousko",
+    "hu": "Ausztria",
+    "ro": "Austria",
+    "fa": "اتریش",
+    "el": "Αυστρία"
+   },
+   "iso2": "AT",
+   "iso3": "AUT",
+   "aliases": [
+    "Austria",
+    "AUT",
+    "AT",
+    "奥地利",
+    "奧地利"
+   ],
+   "dial": "43"
+  },
+  "PRT": {
+   "name": {
+    "zh": "葡萄牙",
+    "en": "Portugal",
+    "vi": "Bồ Đào Nha",
+    "th": "โปรตุเกส",
+    "ru": "Португалия",
+    "de": "Portugal",
+    "pl": "Portugalia",
+    "it": "Portogallo",
+    "ar": "البرتغال",
+    "tr": "Portekiz",
+    "uk": "Португалія",
+    "pt": "Portugal",
+    "nl": "Portugal",
+    "id": "Portugal",
+    "ms": "Portugal",
+    "hi": "पुर्तगाल",
+    "he": "פורטוגל",
+    "cs": "Portugalsko",
+    "hu": "Portugália",
+    "ro": "Portugalia",
+    "fa": "پرتغال",
+    "el": "Πορτογαλία"
+   },
+   "iso2": "PT",
+   "iso3": "PRT",
+   "aliases": [
+    "Portugal",
+    "PRT",
+    "PT",
+    "葡萄牙"
+   ],
+   "dial": "351"
+  },
+  "BRA": {
+   "name": {
+    "zh": "巴西",
+    "en": "Brazil",
+    "vi": "Brazil",
+    "th": "บราซิล",
+    "ru": "Бразилия",
+    "de": "Brasilien",
+    "pl": "Brazylia",
+    "it": "Brasile",
+    "ar": "البرازيل",
+    "tr": "Brezilya",
+    "uk": "Бразилія",
+    "pt": "Brasil",
+    "nl": "Brazilië",
+    "id": "Brasil",
+    "ms": "Brazil",
+    "hi": "ब्राज़ील",
+    "he": "ברזיל",
+    "cs": "Brazílie",
+    "hu": "Brazília",
+    "ro": "Brazilia",
+    "fa": "برزیل",
+    "el": "Βραζιλία"
+   },
+   "iso2": "BR",
+   "iso3": "BRA",
+   "aliases": [
+    "Brazil",
+    "BRA",
+    "BR",
+    "巴西",
+    "Brasil"
+   ],
+   "dial": "55"
+  },
+  "ITA": {
+   "name": {
+    "zh": "意大利",
+    "en": "Italy",
+    "zh-TW": "義大利",
+    "vi": "Ý",
+    "th": "อิตาลี",
+    "ru": "Италия",
+    "de": "Italien",
+    "pl": "Włochy",
+    "it": "Italia",
+    "ar": "إيطاليا",
+    "tr": "İtalya",
+    "uk": "Італія",
+    "pt": "Itália",
+    "nl": "Italië",
+    "id": "Italia",
+    "ms": "Itali",
+    "hi": "इटली",
+    "he": "איטליה",
+    "cs": "Itálie",
+    "hu": "Olaszország",
+    "ro": "Italia",
+    "fa": "ایتالیا",
+    "el": "Ιταλία"
+   },
+   "iso2": "IT",
+   "iso3": "ITA",
+   "aliases": [
+    "Italy",
+    "ITA",
+    "IT",
+    "意大利",
+    "Italia",
+    "義大利"
+   ],
+   "dial": "39"
+  },
+  "NLD": {
+   "name": {
+    "zh": "荷兰",
+    "en": "Netherlands",
+    "zh-TW": "荷蘭",
+    "vi": "Hà Lan",
+    "th": "เนเธอร์แลนด์",
+    "ru": "Нидерланды",
+    "de": "Niederlande",
+    "pl": "Holandia",
+    "it": "Paesi Bassi",
+    "ar": "هولندا",
+    "tr": "Hollanda",
+    "uk": "Нідерланди",
+    "pt": "Países Baixos",
+    "nl": "Nederland",
+    "id": "Belanda",
+    "ms": "Belanda",
+    "hi": "नीदरलैंड",
+    "he": "הולנד",
+    "cs": "Nizozemsko",
+    "hu": "Hollandia",
+    "ro": "Țările de Jos",
+    "fa": "هلند",
+    "el": "Κάτω Χώρες"
+   },
+   "iso2": "NL",
+   "iso3": "NLD",
+   "aliases": [
+    "Netherlands",
+    "NLD",
+    "NL",
+    "荷兰",
+    "Holland",
+    "荷蘭"
+   ],
+   "dial": "31"
+  },
+  "SAU": {
+   "name": {
+    "zh": "沙特阿拉伯",
+    "en": "Saudi Arabia",
+    "zh-TW": "沙烏地阿拉伯",
+    "vi": "Ả Rập Xê Út",
+    "th": "ซาอุดีอาระเบีย",
+    "ru": "Саудовская Аравия",
+    "de": "Saudi-Arabien",
+    "pl": "Arabia Saudyjska",
+    "it": "Arabia Saudita",
+    "ar": "السعودية",
+    "tr": "Suudi Arabistan",
+    "uk": "Саудівська Аравія",
+    "pt": "Arábia Saudita",
+    "nl": "Saoedi-Arabië",
+    "id": "Arab Saudi",
+    "ms": "Arab Saudi",
+    "hi": "सऊदी अरब",
+    "he": "ערב הסעודית",
+    "cs": "Saúdská Arábie",
+    "hu": "Szaúd-Arábia",
+    "ro": "Arabia Saudită",
+    "fa": "عربستان سعودی",
+    "el": "Σαουδική Αραβία"
+   },
+   "iso2": "SA",
+   "iso3": "SAU",
+   "aliases": [
+    "Saudi Arabia",
+    "SAU",
+    "SA",
+    "沙特阿拉伯",
+    "沙烏地阿拉伯"
+   ],
+   "dial": "966"
+  },
+  "ARE": {
+   "name": {
+    "zh": "阿联酋",
+    "en": "United Arab Emirates",
+    "zh-TW": "阿聯酋",
+    "vi": "Các Tiểu vương quốc Ả Rập Thống nhất",
+    "th": "สหรัฐอาหรับเอมิเรตส์",
+    "ru": "ОАЭ",
+    "de": "Vereinigte Arabische Emirate",
+    "pl": "Zjednoczone Emiraty Arabskie",
+    "it": "Emirati Arabi Uniti",
+    "ar": "الإمارات",
+    "tr": "Birleşik Arap Emirlikleri",
+    "uk": "ОАЕ",
+    "pt": "Emirados Árabes Unidos",
+    "nl": "Verenigde Arabische Emiraten",
+    "id": "Uni Emirat Arab",
+    "ms": "Emiriah Arab Bersatu",
+    "hi": "संयुक्त अरब अमीरात",
+    "he": "איחוד האמירויות",
+    "cs": "Spojené arabské emiráty",
+    "hu": "Egyesült Arab Emírségek",
+    "ro": "Emiratele Arabe Unite",
+    "fa": "امارات",
+    "el": "Ηνωμένα Αραβικά Εμιράτα"
+   },
+   "iso2": "AE",
+   "iso3": "ARE",
+   "aliases": [
+    "United Arab Emirates",
+    "ARE",
+    "AE",
+    "阿联酋",
+    "UAE",
+    "阿聯酋"
+   ],
+   "dial": "971"
+  },
+  "EGY": {
+   "name": {
+    "zh": "埃及",
+    "en": "Egypt",
+    "vi": "Ai Cập",
+    "th": "อียิปต์",
+    "ru": "Египет",
+    "de": "Ägypten",
+    "pl": "Egipt",
+    "it": "Egitto",
+    "ar": "مصر",
+    "tr": "Mısır",
+    "uk": "Єгипет",
+    "pt": "Egito",
+    "nl": "Egypte",
+    "id": "Mesir",
+    "ms": "Mesir",
+    "hi": "मिस्र",
+    "he": "מצרים",
+    "cs": "Egypt",
+    "hu": "Egyiptom",
+    "ro": "Egipt",
+    "fa": "مصر",
+    "el": "Αίγυπτος"
+   },
+   "iso2": "EG",
+   "iso3": "EGY",
+   "aliases": [
+    "Egypt",
+    "EGY",
+    "EG",
+    "埃及"
+   ],
+   "dial": "20"
+  },
+  "TUR": {
+   "name": {
+    "zh": "土耳其",
+    "en": "Turkey",
+    "vi": "Thổ Nhĩ Kỳ",
+    "th": "ตุรกี",
+    "ru": "Турция",
+    "de": "Türkei",
+    "pl": "Turcja",
+    "it": "Turchia",
+    "ar": "تركيا",
+    "tr": "Türkiye",
+    "uk": "Туреччина",
+    "pt": "Turquia",
+    "nl": "Turkije",
+    "id": "Turki",
+    "ms": "Turkiye",
+    "hi": "तुर्की",
+    "he": "טורקיה",
+    "cs": "Turecko",
+    "hu": "Törökország",
+    "ro": "Turcia",
+    "fa": "ترکیه",
+    "el": "Τουρκία"
+   },
+   "iso2": "TR",
+   "iso3": "TUR",
+   "aliases": [
+    "Turkey",
+    "TUR",
+    "TR",
+    "土耳其",
+    "Türkiye"
+   ],
+   "dial": "90"
+  },
+  "POL": {
+   "name": {
+    "zh": "波兰",
+    "en": "Poland",
+    "zh-TW": "波蘭",
+    "vi": "Ba Lan",
+    "th": "โปแลนด์",
+    "ru": "Польша",
+    "de": "Polen",
+    "pl": "Polska",
+    "it": "Polonia",
+    "ar": "بولندا",
+    "tr": "Polonya",
+    "uk": "Польща",
+    "pt": "Polônia",
+    "nl": "Polen",
+    "id": "Polandia",
+    "ms": "Poland",
+    "hi": "पोलैंड",
+    "he": "פולין",
+    "cs": "Polsko",
+    "hu": "Lengyelország",
+    "ro": "Polonia",
+    "fa": "لهستان",
+    "el": "Πολωνία"
+   },
+   "iso2": "PL",
+   "iso3": "POL",
+   "aliases": [
+    "Poland",
+    "POL",
+    "PL",
+    "波兰",
+    "Polska",
+    "波蘭"
+   ],
+   "dial": "48"
+  },
+  "SWE": {
+   "name": {
+    "zh": "瑞典",
+    "en": "Sweden",
+    "vi": "Thụy Điển",
+    "th": "สวีเดน",
+    "ru": "Швеция",
+    "de": "Schweden",
+    "pl": "Szwecja",
+    "it": "Svezia",
+    "ar": "السويد",
+    "tr": "İsveç",
+    "uk": "Швеція",
+    "pt": "Suécia",
+    "nl": "Zweden",
+    "id": "Swedia",
+    "ms": "Sweden",
+    "hi": "स्वीडन",
+    "he": "שוודיה",
+    "cs": "Švédsko",
+    "hu": "Svédország",
+    "ro": "Suedia",
+    "fa": "سوئد",
+    "el": "Σουηδία"
+   },
+   "iso2": "SE",
+   "iso3": "SWE",
+   "aliases": [
+    "Sweden",
+    "SWE",
+    "SE",
+    "瑞典"
+   ],
+   "dial": "46"
+  },
+  "AUS": {
+   "name": {
+    "zh": "澳大利亚",
+    "en": "Australia",
+    "zh-TW": "澳洲",
+    "ja": "オーストラリア",
+    "ko": "호주",
+    "fr": "Australie",
+    "es": "Australia",
+    "vi": "Úc",
+    "th": "ออสเตรเลีย",
+    "ru": "Австралия",
+    "de": "Australien",
+    "pl": "Australia",
+    "it": "Australia",
+    "ar": "أستراليا",
+    "tr": "Avustralya",
+    "uk": "Австралія",
+    "pt": "Austrália",
+    "nl": "Australië",
+    "id": "Australia",
+    "ms": "Australia",
+    "hi": "ऑस्ट्रेलिया",
+    "he": "אוסטרליה",
+    "cs": "Austrálie",
+    "hu": "Ausztrália",
+    "ro": "Australia",
+    "fa": "استرالیا",
+    "el": "Αυστραλία"
+   },
+   "iso2": "AU",
+   "iso3": "AUS",
+   "aliases": [
+    "Australia",
+    "AUS",
+    "AU",
+    "澳大利亚",
+    "澳洲"
+   ],
+   "dial": "61"
+  },
+  "NZL": {
+   "name": {
+    "zh": "新西兰",
+    "en": "New Zealand",
+    "zh-TW": "紐西蘭",
+    "ja": "ニュージーランド",
+    "ko": "뉴질랜드",
+    "fr": "Nouvelle-Zélande",
+    "es": "Nueva Zelanda",
+    "vi": "New Zealand",
+    "th": "นิวซีแลนด์",
+    "ru": "Новая Зеландия",
+    "de": "Neuseeland",
+    "pl": "Nowa Zelandia",
+    "it": "Nuova Zelanda",
+    "ar": "نيوزيلندا",
+    "tr": "Yeni Zelanda",
+    "uk": "Нова Зеландія",
+    "pt": "Nova Zelândia",
+    "nl": "Nieuw-Zeeland",
+    "id": "Selandia Baru",
+    "ms": "New Zealand",
+    "hi": "न्यूज़ीलैंड",
+    "he": "ניו זילנד",
+    "cs": "Nový Zéland",
+    "hu": "Új-Zéland",
+    "ro": "Noua Zeelandă",
+    "fa": "نیوزیلند",
+    "el": "Νέα Ζηλανδία"
+   },
+   "iso2": "NZ",
+   "iso3": "NZL",
+   "aliases": [
+    "New Zealand",
+    "NZL",
+    "NZ",
+    "新西兰",
+    "紐西蘭"
+   ],
+   "dial": "64"
+  },
+  "IRL": {
+   "name": {
+    "zh": "爱尔兰",
+    "en": "Ireland",
+    "zh-TW": "愛爾蘭",
+    "ja": "アイルランド",
+    "ko": "아일랜드",
+    "fr": "Irlande",
+    "es": "Irlanda",
+    "vi": "Ireland",
+    "th": "ไอร์แลนด์",
+    "ru": "Ирландия",
+    "de": "Irland",
+    "pl": "Irlandia",
+    "it": "Irlanda",
+    "ar": "أيرلندا",
+    "tr": "İrlanda",
+    "uk": "Ірландія",
+    "pt": "Irlanda",
+    "nl": "Ierland",
+    "id": "Irlandia",
+    "ms": "Ireland",
+    "hi": "आयरलैंड",
+    "he": "אירלנד",
+    "cs": "Irsko",
+    "hu": "Írország",
+    "ro": "Irlanda",
+    "fa": "ایرلند",
+    "el": "Ιρλανδία"
+   },
+   "iso2": "IE",
+   "iso3": "IRL",
+   "aliases": [
+    "Ireland",
+    "IRL",
+    "IE",
+    "爱尔兰",
+    "愛爾蘭"
+   ],
+   "dial": "353"
+  },
+  "ZAF": {
+   "name": {
+    "zh": "南非",
+    "en": "South Africa",
+    "vi": "Nam Phi",
+    "th": "แอฟริกาใต้",
+    "ru": "ЮАР",
+    "de": "Südafrika",
+    "pl": "Republika Południowej Afryki",
+    "it": "Sudafrica",
+    "ar": "جنوب أفريقيا",
+    "tr": "Güney Afrika",
+    "uk": "ПАР",
+    "pt": "África do Sul",
+    "nl": "Zuid-Afrika",
+    "id": "Afrika Selatan",
+    "ms": "Afrika Selatan",
+    "hi": "दक्षिण अफ़्रीका",
+    "he": "דרום אפריקה",
+    "cs": "Jihoafrická republika",
+    "hu": "Dél-afrikai Köztársaság",
+    "ro": "Africa de Sud",
+    "fa": "آفریقای جنوبی",
+    "el": "Νότια Αφρική"
+   },
+   "iso2": "ZA",
+   "iso3": "ZAF",
+   "aliases": [
+    "South Africa",
+    "ZAF",
+    "ZA",
+    "南非"
+   ],
+   "dial": "27"
+  },
+  "PHL": {
+   "name": {
+    "zh": "菲律宾",
+    "en": "Philippines",
+    "zh-TW": "菲律賓",
+    "ja": "フィリピン",
+    "ko": "필리핀",
+    "fr": "Philippines",
+    "es": "Filipinas",
+    "vi": "Philippines",
+    "th": "ฟิลิปปินส์",
+    "ru": "Филиппины",
+    "de": "Philippinen",
+    "pl": "Filipiny",
+    "it": "Filippine",
+    "ar": "الفلبين",
+    "tr": "Filipinler",
+    "uk": "Філіппіни",
+    "pt": "Filipinas",
+    "nl": "Filipijnen",
+    "id": "Filipina",
+    "ms": "Filipina",
+    "hi": "फ़िलीपींस",
+    "he": "הפיליפינים",
+    "cs": "Filipíny",
+    "hu": "Fülöp-szigetek",
+    "ro": "Filipine",
+    "fa": "فیلیپین",
+    "el": "Φιλιππίνες"
+   },
+   "iso2": "PH",
+   "iso3": "PHL",
+   "aliases": [
+    "Philippines",
+    "PHL",
+    "PH",
+    "菲律宾",
+    "菲律賓"
+   ],
+   "dial": "63"
+  },
+  "KHM": {
+   "name": {
+    "zh": "柬埔寨",
+    "en": "Cambodia",
+    "vi": "Campuchia",
+    "th": "กัมพูชา",
+    "ru": "Камбоджа",
+    "de": "Kambodscha",
+    "pl": "Kambodża",
+    "it": "Cambogia",
+    "ar": "كمبوديا",
+    "tr": "Kamboçya",
+    "uk": "Камбоджа",
+    "pt": "Camboja",
+    "nl": "Cambodja",
+    "id": "Kamboja",
+    "ms": "Kemboja",
+    "hi": "कंबोडिया",
+    "he": "קמבודיה",
+    "cs": "Kambodža",
+    "hu": "Kambodzsa",
+    "ro": "Cambodgia",
+    "fa": "کامبوج",
+    "el": "Καμπότζη"
+   },
+   "iso2": "KH",
+   "iso3": "KHM",
+   "aliases": [
+    "Cambodia",
+    "KHM",
+    "KH",
+    "柬埔寨"
+   ],
+   "dial": "855"
+  },
+  "LAO": {
+   "name": {
+    "zh": "老挝",
+    "en": "Laos",
+    "zh-TW": "寮國",
+    "vi": "Lào",
+    "th": "ลาว",
+    "ru": "Лаос",
+    "de": "Laos",
+    "pl": "Laos",
+    "it": "Laos",
+    "ar": "لاوس",
+    "tr": "Laos",
+    "uk": "Лаос",
+    "pt": "Laos",
+    "nl": "Laos",
+    "id": "Laos",
+    "ms": "Laos",
+    "hi": "लाओस",
+    "he": "לאוס",
+    "cs": "Laos",
+    "hu": "Laos",
+    "ro": "Laos",
+    "fa": "لائوس",
+    "el": "Λάος"
+   },
+   "iso2": "LA",
+   "iso3": "LAO",
+   "aliases": [
+    "Laos",
+    "LAO",
+    "LA",
+    "老挝",
+    "Lao",
+    "寮國"
+   ],
+   "dial": "856"
+  },
+  "MMR": {
+   "name": {
+    "zh": "缅甸",
+    "en": "Myanmar",
+    "zh-TW": "緬甸",
+    "vi": "Myanmar",
+    "th": "เมียนมา",
+    "ru": "Мьянма",
+    "de": "Myanmar",
+    "pl": "Mjanma",
+    "it": "Myanmar",
+    "ar": "ميانمار",
+    "tr": "Myanmar",
+    "uk": "М'янма",
+    "pt": "Mianmar",
+    "nl": "Myanmar",
+    "id": "Myanmar",
+    "ms": "Myanmar",
+    "hi": "म्यांमार",
+    "he": "מיאנמר",
+    "cs": "Myanmar",
+    "hu": "Mianmar",
+    "ro": "Myanmar",
+    "fa": "میانمار",
+    "el": "Μιανμάρ"
+   },
+   "iso2": "MM",
+   "iso3": "MMR",
+   "aliases": [
+    "Myanmar",
+    "MMR",
+    "MM",
+    "缅甸",
+    "Burma",
+    "緬甸"
+   ],
+   "dial": "95"
+  },
+  "NPL": {
+   "name": {
+    "zh": "尼泊尔",
+    "en": "Nepal",
+    "zh-TW": "尼泊爾",
+    "vi": "Nepal",
+    "th": "เนปาล",
+    "ru": "Непал",
+    "de": "Nepal",
+    "pl": "Nepal",
+    "it": "Nepal",
+    "ar": "نيبال",
+    "tr": "Nepal",
+    "uk": "Непал",
+    "pt": "Nepal",
+    "nl": "Nepal",
+    "id": "Nepal",
+    "ms": "Nepal",
+    "hi": "नेपाल",
+    "he": "נפאל",
+    "cs": "Nepál",
+    "hu": "Nepál",
+    "ro": "Nepal",
+    "fa": "نپال",
+    "el": "Νεπάλ"
+   },
+   "iso2": "NP",
+   "iso3": "NPL",
+   "aliases": [
+    "Nepal",
+    "NPL",
+    "NP",
+    "尼泊尔",
+    "尼泊爾"
+   ],
+   "dial": "977"
+  },
+  "LKA": {
+   "name": {
+    "zh": "斯里兰卡",
+    "en": "Sri Lanka",
+    "zh-TW": "斯里蘭卡",
+    "vi": "Sri Lanka",
+    "th": "ศรีลังกา",
+    "ru": "Шри-Ланка",
+    "de": "Sri Lanka",
+    "pl": "Sri Lanka",
+    "it": "Sri Lanka",
+    "ar": "سريلانكا",
+    "tr": "Sri Lanka",
+    "uk": "Шрі-Ланка",
+    "pt": "Sri Lanka",
+    "nl": "Sri Lanka",
+    "id": "Sri Lanka",
+    "ms": "Sri Lanka",
+    "hi": "श्रीलंका",
+    "he": "סרי לנקה",
+    "cs": "Srí Lanka",
+    "hu": "Srí Lanka",
+    "ro": "Sri Lanka",
+    "fa": "سری‌لانکا",
+    "el": "Σρι Λάνκα"
+   },
+   "iso2": "LK",
+   "iso3": "LKA",
+   "aliases": [
+    "Sri Lanka",
+    "LKA",
+    "LK",
+    "斯里兰卡",
+    "斯里蘭卡"
+   ],
+   "dial": "94"
+  },
+  "BGD": {
+   "name": {
+    "zh": "孟加拉国",
+    "en": "Bangladesh",
+    "vi": "Bangladesh",
+    "th": "บังกลาเทศ",
+    "ru": "Бангладеш",
+    "de": "Bangladesch",
+    "pl": "Bangladesz",
+    "it": "Bangladesh",
+    "ar": "بنغلاديش",
+    "tr": "Bangladeş",
+    "uk": "Бангладеш",
+    "pt": "Bangladesh",
+    "nl": "Bangladesh",
+    "id": "Bangladesh",
+    "ms": "Bangladesh",
+    "hi": "बांग्लादेश",
+    "he": "בנגלדש",
+    "cs": "Bangladéš",
+    "hu": "Banglades",
+    "ro": "Bangladesh",
+    "fa": "بنگلادش",
+    "el": "Μπανγκλαντές"
+   },
+   "iso2": "BD",
+   "iso3": "BGD",
+   "aliases": [
+    "Bangladesh",
+    "BGD",
+    "BD",
+    "孟加拉国",
+    "孟加拉"
+   ],
+   "dial": "880"
+  },
+  "PAK": {
+   "name": {
+    "zh": "巴基斯坦",
+    "en": "Pakistan",
+    "vi": "Pakistan",
+    "th": "ปากีสถาน",
+    "ru": "Пакистан",
+    "de": "Pakistan",
+    "pl": "Pakistan",
+    "it": "Pakistan",
+    "ar": "باكستان",
+    "tr": "Pakistan",
+    "uk": "Пакистан",
+    "pt": "Paquistão",
+    "nl": "Pakistan",
+    "id": "Pakistan",
+    "ms": "Pakistan",
+    "hi": "पाकिस्तान",
+    "he": "פקיסטן",
+    "cs": "Pákistán",
+    "hu": "Pakisztán",
+    "ro": "Pakistan",
+    "fa": "پاکستان",
+    "el": "Πακιστάν"
+   },
+   "iso2": "PK",
+   "iso3": "PAK",
+   "aliases": [
+    "Pakistan",
+    "PAK",
+    "PK",
+    "巴基斯坦"
+   ],
+   "dial": "92"
+  },
+  "IRN": {
+   "name": {
+    "zh": "伊朗",
+    "en": "Iran",
+    "vi": "Iran",
+    "th": "อิหร่าน",
+    "ru": "Иран",
+    "de": "Iran",
+    "pl": "Iran",
+    "it": "Iran",
+    "ar": "إيران",
+    "tr": "İran",
+    "uk": "Іран",
+    "pt": "Irã",
+    "nl": "Iran",
+    "id": "Iran",
+    "ms": "Iran",
+    "hi": "ईरान",
+    "he": "איראן",
+    "cs": "Írán",
+    "hu": "Irán",
+    "ro": "Iran",
+    "fa": "ایران",
+    "el": "Ιράν"
+   },
+   "iso2": "IR",
+   "iso3": "IRN",
+   "aliases": [
+    "Iran",
+    "IRN",
+    "IR",
+    "伊朗"
+   ],
+   "dial": "98"
+  },
+  "ISR": {
+   "name": {
+    "zh": "以色列",
+    "en": "Israel",
+    "vi": "Israel",
+    "th": "อิสราเอล",
+    "ru": "Израиль",
+    "de": "Israel",
+    "pl": "Izrael",
+    "it": "Israele",
+    "ar": "إسرائيل",
+    "tr": "İsrail",
+    "uk": "Ізраїль",
+    "pt": "Israel",
+    "nl": "Israël",
+    "id": "Israel",
+    "ms": "Israel",
+    "hi": "इज़राइल",
+    "he": "ישראל",
+    "cs": "Izrael",
+    "hu": "Izrael",
+    "ro": "Israel",
+    "fa": "اسرائیل",
+    "el": "Ισραήλ"
+   },
+   "iso2": "IL",
+   "iso3": "ISR",
+   "aliases": [
+    "Israel",
+    "ISR",
+    "IL",
+    "以色列"
+   ],
+   "dial": "972"
+  }
+ }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 130">
+  <rect x="2" y="2" width="226" height="126" rx="7" fill="#f4f6f9" stroke="#d8dce2" stroke-width="1.5"/>
+  <line x1="115" y1="4" x2="115" y2="126" stroke="#c7ccd4" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <rect x="10" y="10" width="98" height="110" rx="4" fill="#e8edf5"/>
+  <text x="59" y="26" font-family="system-ui,sans-serif" font-size="7" fill="#8a93a0" text-anchor="middle">PASSPORT</text>
+  <rect x="26" y="34" width="46" height="56" rx="3" fill="#cfd7e3"/>
+  <circle cx="49" cy="54" r="12" fill="#b6c1d1"/>
+  <path d="M31 88 q18 -22 36 0 z" fill="#b6c1d1"/>
+  <rect x="26" y="96" width="66" height="5" rx="1.5" fill="#d5dce6"/>
+  <rect x="26" y="105" width="52" height="5" rx="1.5" fill="#d5dce6"/>
+
+  <text x="124" y="22" font-family="system-ui,sans-serif" font-size="6" fill="#9aa2ad">SURNAME</text>
+  <rect x="124" y="25" width="70" height="6" rx="1.5" fill="#e2e7ee"/>
+  <text x="124" y="42" font-family="system-ui,sans-serif" font-size="6" fill="#9aa2ad">GIVEN NAME</text>
+  <rect x="124" y="45" width="70" height="6" rx="1.5" fill="#e2e7ee"/>
+
+  <text x="124" y="63" font-family="system-ui,sans-serif" font-size="6.5" font-weight="700" fill="#8a4b00">PASSPORT No.</text>
+  <rect x="124" y="66" width="60" height="11" rx="2" fill="#fff5e6" stroke="#c96442" stroke-width="1.2"/>
+  <text x="129" y="74.5" font-family="ui-monospace,monospace" font-size="8" font-weight="700" fill="#c96442">E1234567</text>
+  <ellipse cx="154" cy="71.5" rx="38" ry="12.5" fill="none" stroke="#e0362a" stroke-width="2"/>
+  <path d="M192 62 l14 -11 m-14 11 l4 -14 m-4 14 l14 3" stroke="#e0362a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+  <text x="124" y="94" font-family="system-ui,sans-serif" font-size="6" fill="#9aa2ad">DATE OF BIRTH</text>
+  <rect x="124" y="97" width="44" height="6" rx="1.5" fill="#e2e7ee"/>
+  <g fill="#a8b2bf">
+    <rect x="124" y="110" width="94" height="4" rx="1"/>
+    <rect x="124" y="117" width="94" height="4" rx="1"/>
+  </g>
+</svg>
